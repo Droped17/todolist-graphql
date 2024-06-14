@@ -1,5 +1,4 @@
-import { Entity, ObjectIdColumn, Column } from 'typeorm';
-import { ObjectId } from 'mongodb';
+import { Entity, ObjectIdColumn, Column, ObjectId } from 'typeorm';
 
 @Entity()
 export class Todo {
